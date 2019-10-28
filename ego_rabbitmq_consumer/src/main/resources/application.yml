@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host: 192.168.9.131
+    username: smallming
+    password: smallming
+  profiles:
+    active: redis
+custom:
+  solr:
+    addCon: http://localhost:8083/
+  rabbitmq:
+    consumer:
+      deleteCartUrl: http://localhost:8085/cart/delete/
+dubbo:
+  application:
+    name: rabbitmq-receiver-dubbo
+  registry:
+    address: zookeeper://192.168.9.128:2181

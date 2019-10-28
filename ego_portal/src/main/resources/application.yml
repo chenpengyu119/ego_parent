@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: portal-dubbo
+  registry:
+    address: zookeeper://192.168.9.128:2181
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: commons,redis
+server:
+  port: 8080
+custom:
+  portal:
+    bigAdNum: 5
+

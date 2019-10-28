@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 192.168.9.130
+custom:
+  redis:
+    itemDetailKey: itemDetailKey

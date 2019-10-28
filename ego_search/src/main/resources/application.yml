@@ -1,0 +1,23 @@
+dubbo:
+  application:
+    name: search-dubbo
+  registry:
+    address: zookeeper://192.168.9.128:2181
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: commons,rabbitmq
+  data:
+    solr:
+      host: http://192.168.9.132:8080/solr/
+server:
+  port: 8083
+custom:
+  solr:
+    num: 12
+    collection: collection1
+
+

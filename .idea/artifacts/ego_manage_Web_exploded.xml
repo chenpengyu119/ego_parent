@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ego_manage:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ego_manage_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ego_manage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ego_manage" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

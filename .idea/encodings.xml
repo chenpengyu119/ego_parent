@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_passport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_rabbitmq_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_rabbitmq_send" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego_serviceimpl" charset="UTF-8" />
+  </component>
+</project>

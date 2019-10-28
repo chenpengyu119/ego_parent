@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: cart-dubbo
+  registry:
+    address: zookeeper://192.168.9.128:2181
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: commons,redis
+server:
+  port: 8085
+custom:
+  cart:
+    loginUrl: http://localhost:8084/user/showLogin
+

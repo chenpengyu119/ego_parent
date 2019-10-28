@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.9.138:8066/ego?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: smallming
+mybatis:
+  type-aliases-package: com.bjsxt.pojo
+  mapper-locations: classpath:mybatis/*.xml
